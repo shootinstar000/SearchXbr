@@ -108,9 +108,9 @@ help_string_user = f'''
 '''
 
 help_user = TELEGRAPH[0].create_page(
-    title='SearchX Help',
+    title='Lilbrat Help',
     author_name='lilbratsagar',
-    author_url='https://lilbratsagar',
+    author_url='https://t.me/lilbratsagar',
     html_content=help_string_user)['path']
 
 help_string_admin = f'''
@@ -136,7 +136,7 @@ help_string_admin = f'''
 '''
 
 help_admin = TELEGRAPH[0].create_page(
-    title='SearchX Help',
+    title= 'lilbrat Help',
     author_name='lilbratsagar',
     author_url='https://t.me/lilbratsagar',
     html_content=help_string_admin)['path']
