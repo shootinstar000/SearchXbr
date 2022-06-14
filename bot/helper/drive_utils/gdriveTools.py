@@ -69,9 +69,9 @@ class GoogleDriveHelper:
         self.response = {}
         self.path = []
         self.telegraph_content = []
-        self.title = "SearchX"
-        self.author_name = "Levi"
-        self.author_url = "https://t.me/l3v11"
+        self.title = "lilbrat Search Engine"
+        self.author_name = "lilbratsagar"
+        self.author_url = "https://t.me/lilbratsagar"
 
     def speed(self):
         """
