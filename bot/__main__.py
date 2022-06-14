@@ -109,8 +109,8 @@ help_string_user = f'''
 
 help_user = TELEGRAPH[0].create_page(
     title='SearchX Help',
-    author_name='Levi',
-    author_url='https://t.me/l3v11',
+    author_name='lilbratsagar',
+    author_url='https://lilbratsagar',
     html_content=help_string_user)['path']
 
 help_string_admin = f'''
@@ -137,8 +137,8 @@ help_string_admin = f'''
 
 help_admin = TELEGRAPH[0].create_page(
     title='SearchX Help',
-    author_name='Levi',
-    author_url='https://t.me/l3v11',
+    author_name='lilbratsagar',
+    author_url='https://t.me/lilbratsagar',
     html_content=help_string_admin)['path']
 
 def bot_help(update, context):
