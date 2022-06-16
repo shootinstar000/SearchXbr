@@ -573,6 +573,7 @@ class GoogleDriveHelper:
         self.drive_query(DRIVE_IDS, search_type, file_name)
         add_title_msg = True
         for files in self.response:
+            print(files)
             index = int(files) - 1
             if add_title_msg:
                 msg = f'<h4>Query: {file_name}</h4><br>'
